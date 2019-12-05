@@ -1,0 +1,45 @@
+<p-dialog header="Traveller Details" modal="modal" *ngIf="isVisible" [(visible)]="isVisible"
+    [style]="{width: '300px', height: '200px'}" [positionTop]="50">
+    <div class="content">
+        <div>
+            <span>Name:</span>
+            <span><label class="content-label">{{data.name}}</label></span>
+        </div>
+        <div>
+            <span>School:</span>
+            <span><label class="content-label">{{data.school}}</label></span>
+        </div>
+        <div>
+            <span>Major:</span>
+            <span><label class="content-label">{{data.major}}</label></span>
+        </div>
+        <div>
+            <span>Minor:</span>
+            <span><label class="content-label">{{data.minor}}</label></span>
+        </div>
+        <div>
+            <span>Abroad Country:</span>
+            <span><label class="content-label">{{data.abroadCountry}}</label></span>
+        </div>
+        <div>
+            <span>Matching Score:</span>
+            <span><label class="content-label">{{data.matchingScore}}</label></span>
+        </div>
+        <div>
+            <span>Language:</span>
+            <span><label class="content-label">{{data.languageProficiency}}</label></span>
+        </div>
+        <div>
+            <span>Departure Date:</span>
+            <span><label class="content-label">{{data.departureDate}}</label></span>
+        </div>
+        <div>
+            <span>Arrival Date:</span>
+            <span><label class="content-label">{{data.arrivalDate}}</label></span>
+        </div>
+        <div>
+            <span>State:</span>
+            <span><label class="content-label">{{data.homeState}}</label></span>
+        </div>
+    </div>
+</p-dialog>

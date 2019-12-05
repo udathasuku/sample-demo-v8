@@ -1,0 +1,21 @@
+.rag-green {
+    background-color: lightcoral !important;
+}
+
+.old-car {
+    background-color: #1CA979 !important;
+    color: #ffffff !important;
+}
+
+.very-old-car {
+    background-color: #2CA8B1 !important;
+    color: #ffffff !important;
+}
+
+.hyperlink{
+    color: #008ce6;
+    cursor: pointer;
+}
+.grid-padding{
+    padding: 20px 20px 20px 20px;
+}

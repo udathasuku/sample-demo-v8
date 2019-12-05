@@ -1,0 +1,11 @@
+.content{
+    font-weight: bold;
+    padding: 15px;
+}
+
+.content-label{
+    font-weight: 500;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    margin-left: 5px !important;
+}
